@@ -1,0 +1,18 @@
+<script>
+    $(function () {
+        $('#customize-agency').appendTo($('#basicConfig > .card-body'));
+    });
+</script>
+<div class="d-none">
+    <div id="customize-agency" class="row">
+        <div class="col-3">
+            <div class="d-inline-block">
+                <span>{{ 'customize.admin.agency.name'|trans }}</span>
+            </div>
+        </div>
+        <div class="col mb-2">
+            {{ form_widget(form.agency) }}
+            {{ form_errors(form.agency) }}
+        </div>
+    </div>
+</div>

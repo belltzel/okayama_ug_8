@@ -1,0 +1,29 @@
+
+customize.admin.agency.operation_status: 稼働ステータス
+
+customize.admin.agency.agency_management: 代理店管理
+customize.admin.agency.agency_registration: 代理店登録
+customize.admin.agency.agency_list: 代理店一覧
+customize.admin.agency.multi_search_label: 代理店ID・代理店名・代理店コード
+
+customize.admin.agency.agency_info: 代理店情報
+customize.admin.agency.agency_id: 代理店ID
+customize.admin.agency.name: 代理店名
+customize.admin.agency.code: 代理店コード
+customize.admin.agency.margin_rate: マージン率
+customize.admin.agency.remarks: 備考
+customize.admin.agency.agency_status: ステータス
+
+customize.common.common.half_width_alphanumeric_characters: （半角英数字）
+#------------------------------------------------------------------------------------
+# ツールチップ
+#------------------------------------------------------------------------------------
+
+customize.tooltip.agency.multi_search_label: 情報を入力して一覧の絞り込み検索ができます。より詳細な条件を指定するには［詳細検索］を開いてください。
+customize.tooltip.agency.agency_id: 自動的に採番される会員のIDです。
+
+#------------------------------------------------------------------------------------
+# フォームエラー
+#------------------------------------------------------------------------------------
+
+customize.form_error.agency_code_already_exists: 既に利用されている代理店コードです。

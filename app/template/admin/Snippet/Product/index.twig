@@ -1,0 +1,19 @@
+<script>
+    $(function () {
+        $('#customize-agency').insertBefore($('#searchDetail > div:first-child'));
+    });
+</script>
+<div class="d-none">
+    <div id="customize-agency" class="row">
+        <div class="col">
+            <div class="form-row">
+                <div class="col-12">
+                    <p class="col-form-label">{{ 'customize.admin.agency.name'|trans }}</p>
+                    {{ form_widget(searchForm.agency) }}
+                    {{ form_errors(searchForm.agency) }}
+                </div>
+            </div>
+        </div>
+        <div class="col"></div>
+    </div>
+</div>
